@@ -12,6 +12,9 @@ My Database Systems Studies using MySQL and MongoDB.
 1. **Install Docker Infrastructure (If you do not already have it installed):**
 
    1. Install Docker: https://docs.docker.com/engine/install/
+      1. **Quick Links:**
+         1. Fedora Linux: https://docs.docker.com/engine/install/fedora/
+         2. Ubuntu Linux: https://docs.docker.com/engine/install/ubuntu/
    2. Install Docker Compose: https://docs.docker.com/compose/install/
 
 2. **Clone this Git repository into your machine by running the command bellow:**
