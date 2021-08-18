@@ -9,8 +9,6 @@ My Database Systems Studies using MySQL and MongoDB.
 
 
 
-
-
 1. **Install Docker Infrastructure (If you do not already have it installed):**
 
    1. Install Docker: https://docs.docker.com/engine/install/
@@ -39,8 +37,6 @@ My Database Systems Studies using MySQL and MongoDB.
    3. For NoSQL only: https://studio3t.com/
 
 6. **Enjoy and have fun!**
-
-
 
 
 
