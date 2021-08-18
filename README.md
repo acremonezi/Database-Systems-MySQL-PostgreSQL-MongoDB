@@ -1,5 +1,5 @@
 # Database-Systems-MySQL-MongoDB
-My Database Systems Studies using [MySQL](https://www.mysql.com/) and [MongoDB](https://www.mongodb.com/).
+My Database Systems Studies using [MySQL](https://www.mysql.com/) and [MongoDB](https://www.mongodb.com/) Database Management Systems ([DBMS](https://en.wikipedia.org/wiki/Database#Database_management_system)).
 
 
 
