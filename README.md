@@ -3,7 +3,7 @@ My Database Systems Studies using the Database Management Systems ([DBMS](https:
 
 ### Instructions:
 
-*Info: This instruction was made based on a **[Fedora Linux](https://getfedora.org/)** environment, I tried to make it as generic as possible, but even so, it might be different if you run it on a different operating system.*
+*This instruction was made to my studies and I will be more than happy if this can also help my colleagues. The processes described was based on a [Fedora Linux](https://getfedora.org/workstation/) environment, I tried to make it as generic as possible, but even so, it might be different if you run it on a different operating system.*
 
 
 
@@ -54,9 +54,9 @@ My Database Systems Studies using the Database Management Systems ([DBMS](https:
 
 ### Others Tools:
 
-1. Schema Design:
+1. **Schema Design:**
    1. https://www.dbdesigner.net/
-2. Entity-Relationship Diagrams (ERD):
+2. **Entity-Relationship Diagrams (ERD):**
    1. https://dbdiagram.io/
    2. https://www.smartdraw.com/entity-relationship-diagram/
    3. https://online.visual-paradigm.com/diagrams/solutions/free-erd-software/
