@@ -39,7 +39,18 @@ My Database Systems Studies using MySQL and MongoDB.
    2. For SQL only: https://www.mysql.com/products/workbench/
    3. For NoSQL only: https://studio3t.com/
 
-6. **Enjoy and have fun!**
+6. Connect the IDE to the databases using the credentials bellow:
+
+   1. Host: `localhost` or your computer `IP address`
+   2. Ports:
+      1. For MySQL: `3306`
+      2. For MongoDB: `27017`
+   3. User: `root`
+   4. Password: `Muito!!!Obrigado!!!`
+
+   Info: If you intend to run it on a public environment instead of your laptop/desktop, please do not forget to change the databases passwords at the `docker-compose.yml` file.
+
+7. **Enjoy and have fun!**
 
 
 
