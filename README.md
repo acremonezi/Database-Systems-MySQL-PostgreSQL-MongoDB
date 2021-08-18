@@ -39,7 +39,7 @@ My Database Systems Studies using MySQL and MongoDB.
    2. For SQL only: https://www.mysql.com/products/workbench/
    3. For NoSQL only: https://studio3t.com/
 
-6. Connect the IDE to the databases using the credentials bellow:
+6. **Connect the IDE above to the databases using the info bellow:**
 
    1. Host: `localhost` or your computer `IP address`
    2. Ports:
