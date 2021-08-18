@@ -35,9 +35,6 @@ services:
       MYSQL_USER: 'mysql_dev'
       MYSQL_PASSWORD: 'mysql_dev'
 
-    labels:
-      traefik.enable: false
-
 # -----------------------------------------------------------------
 # Banco de Dados - MongoDB
 
