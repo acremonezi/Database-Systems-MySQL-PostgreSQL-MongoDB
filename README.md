@@ -3,7 +3,7 @@ My Database Systems Studies using the Database Management Systems ([DBMS](https:
 
 ### Instructions:
 
-*Info: This instruction was made based on a Linux environment, I tried to be as generic as possible, but even so, it might be different if you run it on a different operating system.*
+*Info: This instruction was made based on a **Fedora Linux** environment, I tried to make it as generic as possible, but even so, it might be different if you run it on a different operating system.*
 
 
 
