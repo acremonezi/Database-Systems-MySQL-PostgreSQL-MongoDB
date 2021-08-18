@@ -1,0 +1,61 @@
+version: '3.7'
+services:
+
+# -----------------------------------------------------------------
+# Banco de Dados - MySQL
+
+  mysql_dev:
+    image: mysql:8.0
+    restart: unless-stopped
+    container_name: "mysql_dev"
+
+    volumes:
+      # Configuration
+      # - ../config/mysql_dev/mysql-init.sql:/docker-entrypoint-initdb.d/mysql-init.sql
+      # - ../config/mysql_dev/config-file.cnf:/etc/mysql/config-file.cnf:ro
+      # - ../config/mysql_dev/custom.cnf:/etc/mysql/conf.d/custom.cnf:ro
+
+      # Data Storage
+      - ./data/mysql_dev:/var/lib/mysql
+
+      # Define Time
+      - /etc/localtime:/etc/localtime:ro
+
+    ports:
+      - "3306:3306"
+
+    command:
+       - --default-authentication-plugin=mysql_native_password
+       - --character-set-server=utf8mb4
+       - --collation-server=utf8mb4_general_ci
+
+    environment:
+      MYSQL_ROOT_PASSWORD: 'Muito!!!Obrigado!!!'
+      MYSQL_DATABASE: 'mysql_dev'
+      MYSQL_USER: 'mysql_dev'
+      MYSQL_PASSWORD: 'mysql_dev'
+
+    labels:
+      traefik.enable: false
+
+# -----------------------------------------------------------------
+# Banco de Dados - MongoDB
+
+  mongo_dev:
+    image: mongo:5.0
+    restart: unless-stopped
+    container_name: "mongo_dev"
+
+    volumes:
+      # Data Storage
+      - ./data/mongo_dev:/data/db
+
+      # Define Time
+      - /etc/localtime:/etc/localtime:ro
+
+    ports:
+      - "27017:27017"
+
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: 'Muito!!!Obrigado!!!'
