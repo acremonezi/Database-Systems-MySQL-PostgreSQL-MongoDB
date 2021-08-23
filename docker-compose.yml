@@ -56,3 +56,26 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
       MONGO_INITDB_ROOT_PASSWORD: 'Muito!!!Obrigado!!!'
+
+# -----------------------------------------------------------------
+# Database: Postgres
+
+  postgres_dev:
+    image: postgres:13.1
+    restart: unless-stopped
+    container_name: "postgres_dev"
+
+    volumes:
+      # Data Storage
+      - ./data/postgres_dev:/var/lib/postgresql/data
+      
+      # Define Time
+      - /etc/localtime:/etc/localtime:ro
+    
+    ports:
+      - "5432:5432"
+
+    environment:
+      POSTGRES_DB: 'postgres_dev'
+      POSTGRES_USER: 'postgres_dev'
+      POSTGRES_PASSWORD: 'Muito!!!Obrigado!!!'
