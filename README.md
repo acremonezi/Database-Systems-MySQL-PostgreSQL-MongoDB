@@ -6,6 +6,11 @@ My Database Systems Studies using the Database Management Systems ([DBMS](https:
 - [MongoDB](https://www.mongodb.com/).
 
 
+ℹ️ Interesting info links:
+- [DB-Engines Ranking](https://db-engines.com/en/ranking)
+- [DBA Stack Exchange](https://dba.stackexchange.com/)
+- [Stack Overflow](https://stackoverflow.com/)
+
 ### Instructions:
 
 *This instruction was made to my studies and I will be more than happy if it can also help my colleagues as well. The process described bellow was based on a [Fedora Linux](https://getfedora.org/workstation/) environment, I tried to make it as generic as possible, but even so, it might be different if you run it on a different operating system.*
