@@ -2,8 +2,8 @@
 My Database Systems Studies using the Database Management Systems ([DBMS](https://en.wikipedia.org/wiki/Database#Database_management_system)):
 
 - [MySQL](https://www.mysql.com/)
-- [PostgreSQL](https://www.postgresql.org/).
-- [MongoDB](https://www.mongodb.com/).
+- [PostgreSQL](https://www.postgresql.org/)
+- [MongoDB](https://www.mongodb.com/)
 
 
 ### Interesting info links:
