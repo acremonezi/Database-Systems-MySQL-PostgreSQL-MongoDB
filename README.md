@@ -1,5 +1,10 @@
 # Database-Systems-MySQL-MongoDB
-My Database Systems Studies using the Database Management Systems ([DBMS](https://en.wikipedia.org/wiki/Database#Database_management_system)):  [MySQL](https://www.mysql.com/) and [MongoDB](https://www.mongodb.com/).
+My Database Systems Studies using the Database Management Systems ([DBMS](https://en.wikipedia.org/wiki/Database#Database_management_system)):
+
+- [MySQL](https://www.mysql.com/)
+- [PostgreSQL](https://www.postgresql.org/).
+- [MongoDB](https://www.mongodb.com/).
+
 
 ### Instructions:
 
@@ -43,8 +48,8 @@ My Database Systems Studies using the Database Management Systems ([DBMS](https:
    2. Ports:
       1. For MySQL: `3306`
       2. For MongoDB: `27017`
-   3. User: `root`
-   4. Password: `Muito!!!Obrigado!!!`
+      3. For PostgreSQL: `5432`
+   3. User/Password: Please, have a look into the file: `docker-compose.yml`
 
    Info: If you intend to run it on a public environment instead of your laptop/desktop, please do not forget to change the databases passwords at the `docker-compose.yml` file.
 
