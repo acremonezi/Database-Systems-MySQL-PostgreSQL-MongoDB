@@ -1,7 +1,10 @@
 # Database-Systems-MySQL-MongoDB
 My Database Systems Studies using the Database Management Systems ([DBMS](https://en.wikipedia.org/wiki/Database#Database_management_system)):  [MySQL](https://www.mysql.com/) and [MongoDB](https://www.mongodb.com/).
 
-ℹ️ Interesting info: [DB-Engines Ranking](https://db-engines.com/en/ranking)
+ℹ️ Interesting info links:
+- [DB-Engines Ranking](https://db-engines.com/en/ranking)
+- [DBA Stack Exchange](https://dba.stackexchange.com/)
+- [Stack Overflow](https://stackoverflow.com/)
 
 ### Instructions:
 
