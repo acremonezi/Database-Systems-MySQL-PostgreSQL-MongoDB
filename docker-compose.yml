@@ -11,7 +11,7 @@ services:
 
     volumes:
       # Configuration
-      # - ../config/mysql_dev/mysql-init.sql:/docker-entrypoint-initdb.d/mysql-init.sql
+      - ./config/mysql_dev/mysql-init.sql:/docker-entrypoint-initdb.d/mysql-init.sql
       # - ../config/mysql_dev/config-file.cnf:/etc/mysql/config-file.cnf:ro
       # - ../config/mysql_dev/custom.cnf:/etc/mysql/conf.d/custom.cnf:ro
 
